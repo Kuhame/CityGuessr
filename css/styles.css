@@ -1,0 +1,139 @@
+body{
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+}
+
+body.has-navbar-fixed-top, html.has-navbar-fixed-top {
+    padding-top: 0;
+}
+
+
+#map {
+    min-height: 100vh;
+    min-width: 100vw;
+    padding: 0;
+    z-index: 1;
+}
+
+#aTrouver {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100px;
+    margin: 0 auto 0 auto;
+    width: fit-content;
+    padding: 2px;
+    height: 50px;
+    z-index: 9999;
+    text-align: center;
+}
+
+.navbar {
+    width: 75%;
+    margin-top: 20px;
+    position: fixed;
+    z-index: 30;
+}
+
+.btn {
+    margin-right: 5px;
+}
+
+#dialog {
+    position: absolute;
+    font-weight: 400;
+    font-size: 28px;
+    color: black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.9);
+    pointer-events: none;
+    width: 550px;
+    left: 0;
+    right: 0;
+    top: 30%;
+    margin: 0 auto 0 auto;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding-right: 8px;
+    z-index: 9999;
+  }
+
+ul{
+    list-style: none;
+}
+
+#dialog h1 {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#dialog h1 .zz {
+    color: #4576b2;
+}
+
+#dialog li {
+    margin-bottom: 10px;
+}
+
+#dialog .buttons {
+    padding-bottom: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+#dialog button {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #444;
+    color: white;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 3px;
+    border-width: 0;
+    border-bottom: 2px solid #333;
+    pointer-events: auto;
+    margin-left: 10px;
+}
+
+#dialog button:hover,
+#dialog button:focus {
+    background-color: #666;
+    cursor: pointer;
+}
+
+#dialog button:active {
+    border-bottom: none;
+    border-top: 2px solid #333;
+}
+
+.formulaire{
+    width:300px;
+    max-width:100%;
+    margin:50px auto;
+}
+
+@media (max-width: 560px), (max-height: 404px) {
+    #dialog {
+        font-size: 20px;
+        width:300px;
+    }
+
+    #dialog h1 {
+        font-size: 43.2px;
+    }
+
+    #dialog button {
+        font-size: 20px;
+    }
+
+    #aTrouver{
+        top: 200px;
+        height: 75px;
+        text-align: center;
+    }
+}
