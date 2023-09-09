@@ -1,5 +1,7 @@
 # CityGuessr
 
+![Logo](./assets/images/bannerCityGuessr.png)
+
 ## Description
 
 Ce projet est un jeu de géolocalisation inspiré par le célèbre Geoguessr, mais sans l'utilisation de Google Street View. Les joueurs se voient présenter une carte du monde sur laquelle est affiché le nom d'une ville. Leur mission est de deviner la localisation de cette ville en plaçant un marqueur sur la carte. Plus les joueurs sont proches de la localisation correcte, plus ils marquent de points. Ce jeu offre une expérience divertissante pour tester vos connaissances géographiques et découvrir de nouvelles destinations à travers le monde.
