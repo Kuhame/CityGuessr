@@ -28,7 +28,14 @@ Ce projet est un jeu de géolocalisation inspiré par le célèbre Geoguessr, ma
 
 ## Captures d'écran
 
-[A venir]
+### Debut de partie :
+![Start](./assets/images/start.png)
+
+### Information sur les marqueurs :
+![Info](./assets/images/ingame.png)
+
+### Fin de partie :
+![End](./assets/images/end.png)
 
 ## Instructions d'installation
 
