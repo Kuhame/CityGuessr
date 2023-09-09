@@ -26,7 +26,7 @@ Ce projet est un jeu de géolocalisation inspiré par le célèbre Geoguessr, ma
 
 ## Captures d'écran
 
-
+[A venir]
 
 ## Instructions d'installation
 
